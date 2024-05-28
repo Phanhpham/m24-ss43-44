@@ -1,0 +1,127 @@
+.admin{
+    background: #ffebbb;
+    width: 100%;
+}
+
+
+.container{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background: black;
+    .left-container{
+        width: 50%;
+        display: flex;
+        gap: 20px;
+    }
+    .tab{
+        display: flex;
+        gap: 10px;
+    }
+}
+
+.sidebar{
+    height: 180vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background: black;
+    button{
+        background: white;
+        color: black;
+        font-weight: bold;
+        width: 80%;
+        height: 50px;
+        border-radius: 5px;
+        margin: 10px;
+    }
+    .selected{
+        width: 80%;
+        margin: 10px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        span{
+            width: 20%;
+            font-size: 25px;
+        }
+        select{
+            background: black;
+            width: 80%;
+        }
+    }
+}
+
+.main{
+    width: 80%;
+    height: 150vh;
+    .first-main{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: white;
+        .left{
+            width: 50%;
+            display: flex;
+            gap: 20px;
+            padding: 10px;
+            
+        }
+        
+        .right {
+            input{
+                width: 300px;
+                height: 30px;
+                border-radius: 5px;
+                border: 0.5px solid black;
+            }
+        }
+        
+        
+    }
+    .second-main{
+        height: 80px;
+        margin: 20px;
+        display: flex;
+        justify-content: space-between;
+        .statisics{
+            width: 23%;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            i{
+                font-size: 30px;
+                color: #d59bf6;
+            }
+        }
+    }
+
+    .last-main{
+        height: auto;
+        background: white;
+        margin: 20px;
+        padding: 20px;
+        .next-tab {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            width: 100%;
+            height: 40px;
+            .click button{
+                border: 0.5px solid black;
+                width: 30px;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
